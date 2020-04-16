@@ -13,41 +13,41 @@ while True:
 
 	if user_input == "6":
 		break
-	
+
 	elif user_input == "1":
 		num1 = int(input("Enter number 1: "))
 		num2 = int(input("Enter number 2: "))
 		result = str(num1 + num2)
 		print("The answer is " + result + "\n")
-                
-                
+
+
 	elif user_input == "2":
 		num1 = int(input("Enter number 1: "))
 		num2 = int(input("Enter number 2: "))
 		result = str(num1 - num2)
 		print("The answer is " + result + "\n")
-              
-                
+
+
 	elif user_input == "3":
 		num1 = int(input("Enter number 1: "))
 		num2 = int(input("Enter number 2: "))
 		result = str(num1 * num2)
 		print("The answer is " + result + "\n")
-	
-		
+
+
 	elif user_input == "4":
 		num1 = int(input("Enter number 1: "))
 		num2 = int(input("Enter number 2: "))
 		result = str(num1 / num2)
 		print("The answer is " + result + "\n")
-		
+
 	elif user_input == "5":
 		num = int(input("Enter the number to be squared: "))
 		result = str(num * num)
 		print("The asnwer is " + result + "\n")
-        
-	else: 
+
+	else:
 		print("input a valid number")
 
-		
+
 input("Enter to exit")
