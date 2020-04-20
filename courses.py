@@ -1,19 +1,19 @@
 intersts = [
-                [1,'Programming'],
-                [2,'Wrinting'],
-                [3,'Reading'],
-                [4,'Typing'],
-                [5,'Listening'],
-                [6,'Singing'],
-                [7,'Drawing'],
-                [8,'Physical Acitivities'],
-                [9,'Thinking'],
-                [10,'Problem Solving']
+            [1,'Programming'],
+            [2,'Wrinting'],
+            [3,'Reading'],
+            [4,'Typing'],
+            [5,'Listening'],
+            [6,'Singing'],
+            [7,'Drawing'],
+            [8,'Physical Acitivities'],
+            [9,'Thinking'],
+            [10,'Problem Solving']
             ]
 courses =   [
-                [[4,1,10,9,5],'computer science',],
-                [[3,8,7,10,9],'Engineering'],
-                [[2,3,4,5,9],'Teaching']
+            [[4,1,10,9,5],'computer science'],
+            [[3,8,7,10,9],'Engineering'],
+            [[2,3,4,5,9],'Teaching']
             ]
 
 #ask the user to enter 5 options
@@ -30,7 +30,7 @@ while num < 5:
     x = num + 1
     select = int(input("Enter option " + str(x) + ": "))
     if select != " " and select not in selection:
-        selection.append(selection)
+        selection.append(select)
         num += 1
 print(selection)
 classifier = []
