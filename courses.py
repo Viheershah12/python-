@@ -21,7 +21,7 @@ courses =   [
 #check the items in the user selection against the itenms
 #each courses array and corresponding value obtained as a percentage
 #return the course with the greatest value
-print("select five options from the interests provided below")
+print("\n select five options from the interests provided below \n")
 for interest in intersts:
     print(str(interest[0]),'.',interest[1])
 selection = []
@@ -32,7 +32,11 @@ while num < 5:
     if select != " " and select not in selection:
         selection.append(select)
         num += 1
-print(selection)
+
+for select in selection:
+    print(select,end="\t")
+print("\n")
+
 classifier = []
 for course in courses:
     match = 0
@@ -44,14 +48,8 @@ for course in courses:
     result = [course[1],score]
     classifier.append(result)
 # veiw result
+    
 for course in classifier:
     print(str(course[1]) + "\t" + course[0])
-input("Enter to Exit")
-
-            
-
-
-        
-        
-        
-input("Press enter to exit")
+    
+input("\n Enter to Exit")
