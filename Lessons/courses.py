@@ -10,6 +10,7 @@ intersts = [
             [9,'Thinking'],
             [10,'Problem Solving']
             ]
+
 courses =   [
             [[4,1,10,9,5],'computer science'],
             [[3,8,7,10,9],'Engineering'],
