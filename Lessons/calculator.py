@@ -19,14 +19,13 @@ while True:
 		num2 = int(input("Enter number 2: "))
 		result = str(num1 + num2)
 		print("The answer is " + result + "\n")
-                
-                
+
+
 	elif user_input == "2":
 		num1 = int(input("Enter number 1: "))
 		num2 = int(input("Enter number 2: "))
 		result = str(num1 - num2)
 		print("The answer is " + result + "\n")
-              
                 
 	elif user_input == "3":
 		num1 = int(input("Enter number 1: "))
