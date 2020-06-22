@@ -17,7 +17,7 @@ while True:
 	elif user_input == "1":
 		num1 = int(input("Enter number 1: "))
 		num2 = int(input("Enter number 2: "))
-		result = str(num1 + num2)
+		result = str(num1)
 		print("The answer is " + result + "\n")
 
 
