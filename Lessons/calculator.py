@@ -48,5 +48,5 @@ while True:
 	else: 
 		print("input a valid number")
 
-		
+
 input("Enter to exit")
