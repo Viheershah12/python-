@@ -1,4 +1,4 @@
-menu = [[1,"Chapati",50],
+menu = [[1,"Chapati",50]
 	    [2,"Rice",100],
 		[3,"Paneer",70],
 		[4,"Coffee",20],
@@ -50,6 +50,7 @@ else:
 	total += 0
 
 print("\nSub-total cost: ",str(total))
+
 print("We accept payments via both credit cards and Mpesa")
 paymentMeth = input("Choose a payment method: ")
 if paymentMeth == "mpesa" or paymentMeth == "Mpesa":
@@ -58,3 +59,5 @@ else:
     total += 50
 print("\nTotal cost: ",str(total))
 input("\nEnter to Exit")
+
+print("hello")
